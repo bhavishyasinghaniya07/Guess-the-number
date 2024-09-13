@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="all">
+        <div class="rules">
+            <h1>Guess The Number</h1>
+            <br/> <br/>
+        <h2>Rules :- </h2>
+        <ul>
+            <li>Computer will generate a random number</li>
+            <li>You have to guess that number between 1 to 100</li>
+            <li>You will get 7 Chances </li>
+            <li>On every wrong guess a hint is given</li>
+        </ul>
+    </div>
+   
+        <div class="form">
+            <form action="" id="form">
+                <br/>
+                <label for="input">Enter Your Guess</label> <input type="text" id="Userinp">
+                <button id="submt">Submit</button>
+                <br/> <br/>
+                <!-- <h3 id="prev">Previous Guess : </h3> -->
+                <br/>
+                <h3 id="chance">Chance Remaining : 7 </h3>
+                <br/>
+                <h3 id="display"></h3>
+            </form>
+        </div>
+      
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
